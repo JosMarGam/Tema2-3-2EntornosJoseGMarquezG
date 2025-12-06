@@ -15,9 +15,9 @@ namespace Tema2_3_2EntornosJoseGMarquezG
             double coste = 0.0;
 
             textoTelegrama = richTextBox1.Text;
-            //ALOGUNOS CAMBIOS AQUI
+            
 
-            if (checkBoxUrgente.Checked)
+            if (radioButton1.Checked)
             {
                 tipoTelegrama = 'u';
             }
